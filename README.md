@@ -1,13 +1,13 @@
 # Telegram Bot #
 
 ## In this project I created Telegram Bot, which gives the user latest news about Python programming language from publics and communities from vk.com  ##
-This Bot takes information from vk.com used API VK. Yyou can familiarize with it [here](https://vk.com/dev)
+This Bot takes information from vk.com used API VK. You can familiarize with it [here](https://vk.com/dev). Before start the work, you should create your Application [here](https://vk.com/editapp?act=create), get your application's ID. This data will allow you be autorized and work with API VK Methods. Also it uses module VK to facilitate work with API requests 
 
-#  #
+# Groups about Python  #
 
-This program makes clear how work TMDB. You should to enter your api_key_v3 and program will show you budget of film "Saw II (Пила 2)" (id №215 on TMBD)
+In this part we will log in in VK using #####getpass.getpass()##### to enter our data. You should run this file from console, enter you application ID, VK login and password. This script will create file in your project's directory. Using API methods this script will check VK publics by keyword "Python" and find news which contain this keyword. ID of suitable groups will dump in json-file
 
-### Example of api key v3 ###
+### Example of token ###
 1ebe2aa78b39fafdbbf3f9e6833a99e7
 
 # 2. your_DataBase #
