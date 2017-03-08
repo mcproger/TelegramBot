@@ -5,7 +5,7 @@ This Bot takes information from vk.com used API VK. You can familiarize with it 
 
 # Groups about Python  #
 
-In this part we will log in in VK using #####getpass.getpass()##### to enter our data. You should run this file from console, enter you application ID, VK login and password. This script will create file in your project's directory. Using API methods this script will check VK publics by keyword "Python" and find news which contain this keyword. ID of suitable groups will dump in json-file
+In this part we will log in in VK using ##### getpass.getpass() ##### to enter our data. You should run this file from console, enter you application ID, VK login and password. This script will create file in your project's directory. Using API methods this script will check VK publics by keyword "Python" and find news which contain this keyword. ID of suitable groups will dump in json-file
 
 ### Example of token ###
 1ebe2aa78b39fafdbbf3f9e6833a99e7
