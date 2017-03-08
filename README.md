@@ -1,7 +1,7 @@
 # Telegram Bot #
 
 ## In this project I created Telegram Bot, which gives the user latest news about Python programming language from publics and communities from vk.com  ##
-
+This Bot takes information from vk.com used API VK. Yyou can familiarize with it [here](https://vk.com/dev)
 
 #  #
 
