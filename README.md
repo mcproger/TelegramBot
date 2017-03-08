@@ -1,48 +1,33 @@
 # Telegram Bot #
 
 ## In this project I created Telegram Bot, which gives the user latest news about Python programming language from publics and communities from vk.com  ##
-This Bot takes information from vk.com used API VK. You can familiarize with it [here](https://vk.com/dev). Before start the work, you should create your Application [here](https://vk.com/editapp?act=create), get your application's ID. This data will allow you be autorized and work with API VK Methods. Also it uses module VK to facilitate work with API requests 
+This Bot takes information from vk.com used API VK. You can familiarize with it [here](https://vk.com/dev). Before start the work, you should create your Application [here](https://vk.com/editapp?act=create), get your application's ID. This data will allow you be autorized and work with API VK Methods. Also it uses module VK to facilitate work with API requests. To start working with [Telegram](http://web.telegram.org.ru/#/login) API find @BotFather, send him /start, /newbot, write the name of the bot and you will get your access token.
+
+### Example of Telegram token ###
+
+277777666:AAEaF2tUOpBKdQWXZhMV5lYYfvbETdAviMg
 
 # Groups about Python  #
 
-In this part we will log in in VK using ##### getpass.getpass() ##### to enter our data. You should run this file from console, enter you application ID, VK login and password. This script will create file in your project's directory. Using API methods this script will check VK publics by keyword "Python" and find news which contain this keyword. ID of suitable groups will dump in json-file
+In this part we will log in in VK using **getpass.getpass()** to enter our data. You should run this file from console, enter you application ID, VK login and password. This script will create file in your project's directory. Using API methods this script will check VK publics by keyword "Python" and search news which contain this keyword. ID of suitable groups will dump in json-file
 
-### Example of token ###
-1ebe2aa78b39fafdbbf3f9e6833a99e7
+**Using methods**
+[Group seacrh](https://vk.com/dev/groups.search)
+[News check](https://vk.com/dev/wall.search)
 
-# 2. your_DataBase #
 
-This programm allow you to download information about 1000 films and create DataBase. You should to enter your api key v3 and path to place, where you want to save your DataBase.
+# Python Posts #
 
-# 3. movie_by_key_word #
+Further, using file from first script, we will make some data base with news about Python from VK publics. We will also use, as before VK API Methods, and find tematic news about Python. ID of publics about Python will help us. At the end of this script we will have json-file with news. This script requires authorization in VK, just like in first script. 
 
-This program can find in your DataBase film by key word. You should point place which contains your DataBase, enter key word and program will show your all films which title contains this word. 
+**Using methods**
+[Search news by ID of public](https://vk.com/dev/wall.search)
 
- **Example:**  
- **Enter path to your movie list:**  
- movie_list.txt  
- **Enter key word:**   
- Saw   
- **Saw**  
- **Saw III**  
- **Saw II**  
- **Saw IV**  
-    
-# 4. search_for_recommendation #
+# NewsBot #
 
-This programm can recommend which film can interest you, after you enter title some film. Also you should point place which contains your DataBase.
- **Example:**  
- **Enter path to your movie list:**  
- movie_list.txt  
- **Enter  word:**  
-  Saw II  
- **Recomend films:**    
- **Four Rooms**  
- **Absolute Power**  
- **Las Hurdes**  
- **The Lord of the Rings**  
- **48 Hrs.**  
- **Lost in Translation**  
- **The Interpreter**  
- **Star Trek: Generations**  
- **......................**  
+And finally directly bot. As it was said, you need Telegram token for work with Telegram API. This script using json-file from previous script and take title of news and link. To start working with this bot, you should find it in Telegram's search by the name NewsBot. Press start and command **/python_news** gives you latest news about Python. 
+ 
+ 
+ 
+ 
+ 
